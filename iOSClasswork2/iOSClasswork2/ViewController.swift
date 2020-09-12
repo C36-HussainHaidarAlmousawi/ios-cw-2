@@ -20,9 +20,10 @@ class ViewController: UIViewController, UITextFieldDelegate {
         var animal = animalTextField.text!
         
         
+        
         // MARK: - 1️⃣ emojiArray  الي  animal قم باضافه متغير
         
-        
+        emojiArray.append(animal)
         
         
         
