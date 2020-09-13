@@ -23,9 +23,56 @@ class ViewController: UIViewController, UITextFieldDelegate {
         
         // MARK: - 1️⃣ emojiArray  الي  animal قم باضافه متغير
 
-        if animal == "cat"
-               {
+           if animal == "قطة"{
                    emojiArray.append("🐱")
+               }
+           else if animal == "كلب"{
+                   emojiArray.append("🐶")
+               }
+            else if animal == "دب"{
+                emojiArray.append("🐻")
+            }
+           else if animal == "فأر"{
+                   emojiArray.append("🐭")
+               }
+            else if animal == "ضفدع"{
+                emojiArray.append("🐸")
+            }
+           else if animal == "ارنب"{
+                   emojiArray.append("🐰")
+               }
+           else if animal == "هامستر"{
+                   emojiArray.append("🐹")
+               }
+            else if animal == "ثعبان"{
+                emojiArray.append("🐍")
+            }
+           else if animal == "ثعلب"{
+                   emojiArray.append("🦊")
+               }
+            else if animal == "زرافة"{
+            emojiArray.append("🦒")
+           }
+           else if animal == "باندا"{
+                   emojiArray.append("🐼")
+               }
+           else if animal == "أسد"{
+                   emojiArray.append("🦁")
+               }
+            else if animal == "خروف"{
+            emojiArray.append("🐑")
+           }
+           else if animal == "بقرة"{
+                   emojiArray.append("🐮")
+               }
+           else if animal == "حصان"{
+                   emojiArray.append("🐴")
+               }
+          else if animal == "سمكة"{
+                          emojiArray.append("🐟")
+                }
+           else{
+                   emojiArray.append("?")
                }
         
         // MARK: - لا تقم بتغيير هذا السطر⚠️⚠️
